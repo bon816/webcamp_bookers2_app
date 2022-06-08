@@ -776,3 +776,12 @@ Processing by Devise::SessionsController#new as HTML
 Completed 200 OK in 89ms (Views: 85.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2022-06-08 17:07:12 +0900
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/bonito/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.7.1/lib/active_record/log_subscriber.rb:98
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 336ms (Views: 331.5ms | ActiveRecord: 0.0ms)
+
+
