@@ -1,2 +1,10 @@
-<h1>Relationships#followers</h1>
-<p>Find me in app/views/relationships/followers.html.erb</p>
+<div class='container px-5 px-sm-0'>
+  <div class='row d-flex flex-column'>
+    <h2>Follower Users</h2>
+    <% if @users.exists? %>
+      <%= render '/users/index', users: @users %>
+    <% else %>
+      <p>ユーザーはいません</p>
+    <% end %>
+  </div>
+</div>
